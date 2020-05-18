@@ -36,7 +36,7 @@ This package enables the developer to generate Zambian Names, Companies and Phon
     // fake companies
     echo $faker->company;         // Siamutwa Imports Ltd
 
-    // fakes phone numbers
+    // fake phone numbers
     echo $faker->phoneNumber;     // 0212224773 | +260212224773
     echo $faker->mobileNumber;    // 0763028036 | +260763028036
 ```
