@@ -1,0 +1,15 @@
+{
+    "name": "twmbx/faker-zambia",
+    "description": "Faker provider to generate fake data for Zambian entities, namely; persons, companies and phone numbers.",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "fzaninotto/faker": "^1.9",
+        "php": "^7.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "FakerZambia\\": "src/"
+        }
+    }
+}
