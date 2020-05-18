@@ -4,16 +4,16 @@ namespace FakerZambia\Provider\en_ZM;
 
 class PhoneNumber extends \Faker\Provider\PhoneNumber
 {
-    protected static $formats = array(
+    protected static $formats = [
         '+260{{areaCode}}######',
         '0{{areaCode}}######',
-    );
+    ];
 
-    protected static $cellphoneFormats = array(
+    protected static $cellphoneFormats = [
         '+260{{cellphoneCode}}#######',
         '260{{cellphoneCode}}#######',
         '0{{cellphoneCode}}#######',
-    );
+    ];
 
     protected static $specialFormats = [];
 
